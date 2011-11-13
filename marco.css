@@ -1,0 +1,114 @@
+@font-face{
+    font-family: Quicksand-Regular;
+    src: url('Quicksand/Quicksand-Regular.ttf');
+}
+
+.quicksand {
+    font-family: Quicksand-Regular
+}
+
+#marco {
+    font-size: 90px;
+    position: absolute;
+    top: -20px;
+}
+
+#contact {
+    font-family: Quicksand-Regular;
+    position: absolute;
+    top: 30px;
+    right: 25px;
+}
+
+#outlineBox{
+   background: grey;
+   position: absolute;
+   left: 0px;
+   top: 200px;
+   width: 100%;
+   min-width: 900px;
+   height: 10px;
+}
+
+#selectorBox{
+    position: relative;
+    background: black;
+    height: 10px;
+    width: 155px;
+    left: 20%;
+    -webkit-transition: left 1s ease-in; 
+
+}
+
+#items{
+    position: absolute;
+    float: left;
+    top: 150;
+    left: 0;
+    font-size: 40px;
+    min-width:900px;
+    width: 100%;
+}
+
+.item{
+    position: relative;
+    left: 20%;
+    float: left;
+    width: 30%
+}
+
+#text {
+    position: relative;
+    background: whitesmoke;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    position: absolute;
+    overflow: hidden;
+    float: left;
+    left: 10%;
+    top: 250px; 
+    width: 80%;
+    height: 400px;
+}
+
+#largeContentBox {
+    position: relative;
+    -webkit-transition: left 1s ease-in; 
+}
+
+#projects {
+    position: relative;
+    min-width: 150px;
+    width: 100%;
+    height: 400px;
+}
+
+#links {
+    position: relative;
+    left: 100%;
+    top: -416px;
+    min-width: 150px;
+    width: 100%;
+    height: 400px;
+}
+
+#About {
+    position: relative;
+    left: 200%;
+    top: -832px;
+    min-width: 150px;
+    width: 100%;
+}
+
+.first{
+    left: 0%;
+}
+
+.second{
+    left: -100%;
+}
+
+.third{
+    left: -200%;
+}
